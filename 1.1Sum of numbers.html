@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sum of numbers</title>
+</head>
+<body>
+    <p>Enter the Number</p>
+    <input id= "num" placeholder="Type a number">
+    <button onclick="Sum1()" id="btn1">Click Me</button>
+    <br><br>
+
+    <p id="demo"></p>
+  <script>
+   function Sum1() {
+    var num = document.getElementById("num").value;
+    console.log("the value you gave was:" + num);
+
+    var sum = 0;
+    for (i = 0; i <= num; i++) {
+        sum = sum + i;
+    }
+    document.write(sum);
+}
+</script>
+</body>
+</html>
