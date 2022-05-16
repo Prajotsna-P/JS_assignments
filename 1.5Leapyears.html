@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <script>
+	var yearsPrinted = 0;
+	var currentYear = 2022; 
+
+	function leapYears() 
+	{
+	while (yearsPrinted < 20)
+	{ 
+	if ((currentYear % 4 === 0))
+	{
+
+	document.write(currentYear);
+	yearsPrinted++;
+	currentYear++;
+	} 
+	else
+	{
+	currentYear++;
+	}
+	}
+	}
+</body>
+</html>
